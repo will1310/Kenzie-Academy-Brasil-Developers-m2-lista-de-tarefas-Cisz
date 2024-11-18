@@ -1,0 +1,132 @@
+body {
+    background-color:#e2e2e2;
+    font-family: Roboto, sans-serif;
+  }
+
+.header__content{
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    text-align: center;
+
+}
+.header__title{
+    color:#3b5bdb;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 40px 20%;
+}
+.header__input--search.input__box{
+    border-style: none;
+    font-size: large;
+    margin: 0;
+}
+
+.form__container{
+    background-color: #ebebeb;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: auto;
+    margin-top: 30px;
+    max-height: 20rem;
+    max-width: 50%;
+    padding: 0px 2rem;
+  }
+
+
+h2{
+    font-size: 25px;
+    margin: 30px 0px;
+    padding: 1rem;
+    text-align: start;
+}
+
+.form__input-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.form__input--text{
+    border-style: none;
+    font-size: 1rem;
+    padding-left: 1rem;
+    text-align: start;
+}
+
+.form__input--priority{
+    border: 1px, solid, #ebebeb ;
+    color: gray;
+    font-size: 1rem;
+    justify-content: center;
+    padding-right: 10rem;
+}
+
+.form__button--add-task{
+    background-color: #3b5bdb;
+    border-radius: 6px;
+    border-style: none;
+    color: #f1f3f5;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    padding: 1.3rem;
+}
+
+.tasks__container {
+    background-color: #ebebeb;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-inline: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 50%;
+
+    padding-bottom: 2rem;
+    padding: 0px 2rem;
+  }
+
+.tasks__list {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.task__item{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.task-info__container{
+    padding-left: 1rem;
+    position: absolute;
+    left: 32rem;
+}
+
+.tasks__list .task__button--remove-task{
+    border-radius: 100%;
+    border: 2px, solid, #ebebeb;
+    height: 1rem;
+    min-width: 1rem;
+}
+
+.task__button--dilit-task{
+    background-image: url("assets/trash-icon.svg");
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    border: 1px, none, #f71515;
+    display: flex;
+    height: 1.5rem;
+    order: -1;
+    padding: 0;
+    width: 1.3rem;
+}
